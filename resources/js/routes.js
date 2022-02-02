@@ -7,7 +7,7 @@ export const routes = [
     {
         name: 'home',
         path: '/',
-        component: Welcome
+        component: CategoryList
     },
     {
         name: 'categoryList',

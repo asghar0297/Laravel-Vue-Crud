@@ -2189,7 +2189,7 @@ var CategoryEdit = function CategoryEdit() {
 var routes = [{
   name: 'home',
   path: '/',
-  component: Welcome
+  component: CategoryList
 }, {
   name: 'categoryList',
   path: '/category',
@@ -19738,7 +19738,7 @@ var render = function () {
           _c(
             "router-link",
             { staticClass: "navbar-brand", attrs: { to: "/", href: "#" } },
-            [_vm._v("Laravel Vue Crud App - TechvBlogs")]
+            [_vm._v("Laravel Vue Crud App ")]
           ),
           _vm._v(" "),
           _c("div", { staticClass: "collapse navbar-collapse" }, [
